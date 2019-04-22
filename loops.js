@@ -18,16 +18,12 @@ return 'done';
 function doWhileLoop(num) {
   let i = 0; 
   do {
-    i = i + 1
+    i = i + 1;
   console.log("I run once regardless.");
 } while (i < num);
 }
 
-function incrementVariable() {
-do {
-  console.log("I run once regardless.");
-} while (incrementVariable() < num);
-}
+
 
 // describe('doWhileLoop(num)', () => {
 //     it ('console logs "I run once regardless." 1 time when passed an integer of 0 as a parameter.', () => {
