@@ -16,9 +16,11 @@ return 'done';
 }
 
 function doWhileLoop(num) {
+  let i = 0; 
   do {
+    i = i + 1
   console.log("I run once regardless.");
-} while (Math.floor()*100 === 0);
+} while (i < 10);
 }
 
 function incrementVariable() {
